@@ -68,15 +68,15 @@ streamlit run dashboard/app.py
 
 ##  Key Features
 
-✅ Pluggable data provider architecture
-✅ Institutional-grade performance metrics
-✅ Realistic transaction cost modeling
-✅ Walk-forward optimization
-✅ MySQL persistent storage
-✅ Real-time dashboard
-✅ Comprehensive logging
-✅ Unit test coverage
-✅ Docker deployment
+- Pluggable data provider architecture
+- Institutional-grade performance metrics
+- Realistic transaction cost modeling
+- Walk-forward optimization
+- MySQL persistent storage
+- Real-time dashboard
+- Comprehensive logging
+- Unit test coverage
+- Docker deployment
 
 ##  Data Provider Abstraction
 
