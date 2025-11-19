@@ -3,11 +3,11 @@
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## 🎯 Overview
+## Overview
 
 Production-ready algorithmic trading system with pluggable data architecture designed for institutional integration. Built with enterprise-grade backtesting, risk management, and performance analytics.
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Data Layer (Pluggable Design)
 - **Current Implementation**: Yahoo Finance API (free, reliable)
@@ -32,7 +32,7 @@ Three battle-tested strategies:
 - Maximum drawdown limits
 - Portfolio-level VaR monitoring
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 | Strategy | Sharpe | Max DD | Ann. Return | Win Rate |
 |----------|--------|--------|-------------|----------|
@@ -42,7 +42,7 @@ Three battle-tested strategies:
 
 *Backtested on S&P 500 constituents, 2020-2024*
 
-## 🚀 Quick Start
+##  Quick Start
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -57,7 +57,7 @@ python main.py --strategy momentum --tickers AAPL,MSFT --start 2023-01-01
 streamlit run dashboard/app.py
 ```
 
-## 💻 Tech Stack
+##  Tech Stack
 
 - **Data**: yfinance, Alpha Vantage API
 - **Backtesting**: pandas, numpy, custom engine
@@ -66,7 +66,7 @@ streamlit run dashboard/app.py
 - **Testing**: unittest, pytest
 - **Deployment**: Docker, Docker Compose
 
-## 📈 Key Features
+##  Key Features
 
 ✅ Pluggable data provider architecture
 ✅ Institutional-grade performance metrics
@@ -78,7 +78,7 @@ streamlit run dashboard/app.py
 ✅ Unit test coverage
 ✅ Docker deployment
 
-## 🔄 Data Provider Abstraction
+##  Data Provider Abstraction
 
 The system is designed to work with multiple data vendors:
 ```python
@@ -92,7 +92,7 @@ data = provider.get_historical_data('AAPL', start, end)
 
 This architecture mirrors institutional trading desk infrastructure where multiple data vendors are used.
 
-## 📊 Sample Results
+##  Sample Results
 
 ### Momentum Strategy - FAANG Stocks (2023)
 - Initial Capital: $100,000
@@ -103,7 +103,7 @@ This architecture mirrors institutional trading desk infrastructure where multip
 - Number of Trades: 47
 - Win Rate: 58%
 
-## ⚠️ Limitations & Future Work
+##  Limitations & Future Work
 
 **Current Limitations:**
 - Daily data only (working on intraday)
